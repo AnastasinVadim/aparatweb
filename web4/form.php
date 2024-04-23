@@ -39,7 +39,7 @@
           <span <?php if ($errors['year1'] || $errors['year2']) {print 'class="error"';} ?>>Год рождения:</span>
           <select name="year">
             <?php 
-              for ($i = 2023; $i >= 1922; $i--) {
+              for ($i = 2024; $i >= 1922; $i--) {
                 if ($i == $values['year']) {
                   printf('<option selected value="%d">%d год</option>', $i, $i);
                 } else {
